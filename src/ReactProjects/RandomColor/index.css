@@ -1,0 +1,27 @@
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container h1 {
+  font-size: 3rem; /* scales better across screens */
+  margin: 0.5rem 0;
+}
+
+.container h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
