@@ -1,8 +1,8 @@
-import { use, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import User from "./User"
 
 
-export default function ProfileFetch(params) {
+export default function ProfileFetch() {
   const [userName, setUserName] = useState("seb-ssabes")
   const [userData, setUserData] = useState(null)
   const [loading, setLoading] = useState(false)
