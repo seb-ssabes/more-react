@@ -27,6 +27,9 @@ export default function Autocomplete() {
     }
   }
 
+  console.log(error)
+
+
   function handleChange(event) {
     const query = event.target.value.toLowerCase()
     setSearchParam(query)

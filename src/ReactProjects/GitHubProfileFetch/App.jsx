@@ -26,7 +26,7 @@ export default function ProfileFetch() {
 
   useEffect(() => {
     fetchProfileData()
-  }, [])
+  }) // ADD an empty array as a dependency
 
   if (loading) {
     return <h1>Loading profile data</h1>
